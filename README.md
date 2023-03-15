@@ -12,3 +12,7 @@ npm cache clean
 
 Depois reinicei o pc e instalei o angular cli novamente:
 npm install -g @angular/cli
+
+## Para rodar o projeto:
+
+ng serve -o
