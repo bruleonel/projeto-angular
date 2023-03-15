@@ -16,3 +16,7 @@ npm install -g @angular/cli
 ## Para rodar o projeto:
 
 ng serve -o
+
+## Para criar um component:
+
+ng g component <nome>
