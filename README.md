@@ -36,13 +36,16 @@ ng generate module <nome>
 
 
 <span align="center">
-  <img width="200" height="200" src="modulo-imports.jpeg"
+  <img width="600" height="400" src="img-readme/modulo-imports.jpeg"
   alt="exemplo">
 </span>
 
 - E não esqueça de exportar:
 
-<img src="https://github.com/bruleonel/projeto-angular/issues/1#issue-1628197768" whidth="500px" alt="exemplo módulo"/>
+<span align="center">
+  <img width="600" height="400" src="img-readme/modulo-exports.jpeg"
+  alt="exemplo">
+</span>
 
 ### Para rodar o projeto:
 - ng serve -o
