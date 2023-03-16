@@ -12,7 +12,7 @@ que fica no documento TS pra o app.component.html que será o responsável por c
 ### Para baixar o Agular Cli usei:
 - npm intall -g @angular/cli
 
-!!! Erro: 'ng' não é reconhecido como um comando interno ou externo, um programa operável ou um arquivo em lotes.
+{c:red} Erro: 'ng' não é reconhecido como um comando interno ou externo, um programa operável ou um arquivo em lotes. {/c}
 
 Resolvi esse problema excluindo o nodeJs e instalando novamente. Após isso desintalei o angular e limpei o cache com os comandos:
 
