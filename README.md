@@ -44,5 +44,10 @@ ng generate module <nome>
 <a href="https://www.loom.com/share/7424eba99bc041d7a41463d654ddb200" text-decoration="none">Clique aqui para ver o vídeo</a><br>
 <a href="https://github.com/bruleonel/projeto-angular/commit/0b2608328e2a58c94df65fdaec81ade59fd597a8" text-decoration="none">Clique aqui para ver o código</a>
 
+<h3>Módulos | Exercício | Semana 2 | Angular | aula 2</h3>
+
+<a href="#" text-decoration="none">Clique aqui para ver o vídeo</a><br>
+<a href="#" text-decoration="none">Clique aqui para ver o código</a>
+
 
 
