@@ -33,9 +33,13 @@ npm install -g @angular/cli
 ng generate module <nome>
 - Com os módulos você cria seções para a mesma aplicação. 
 - Quando criar o módulo não esqueça de importar.
+
 <img src="/exercicio-aula2-gestao-de-funcionarios/src/assets/modulo-imports.jpeg" whidth="500px" alt="exemplo módulo">
+
 - E não esqueça de exportar:
-<img src="exercicio-aula2-gestao-de-funcionarios/src/assets/modulo-exports.jpeg" whidth="500px" alt="exemplo módulo">
+
+<img src="https://github.com/bruleonel/projeto-angular/issues/1#issue-1628197768" whidth="500px" alt="exemplo módulo">
+
 ### Para rodar o projeto:
 - ng serve -o
 
