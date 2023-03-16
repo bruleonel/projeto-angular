@@ -36,3 +36,6 @@ Esse compenete poder ser compartilhado com outros componentes para facilidar no 
 que fica no documento TS pra o app.component.html que será o responsável por carregar o projeto.
 
 <h1>Angular</h1>
+
+<h3>Exercício | Semana 2 | Angular | aula 1</h3>
+<video src="https://www.loom.com/share/7424eba99bc041d7a41463d654ddb200" width="500" controls></video>
