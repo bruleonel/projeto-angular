@@ -27,3 +27,12 @@ ng serve -o
 
 ## Para criar um component:
 ng g component <nome>
+
+## Observações:
+Ao criar o projeto angular ele vem com as configurações padrão, você pode criar componetes (pastas) para "montar" sua aplicação, como
+por exemplo: Header.
+
+Esse compenete poder ser compartilhado com outros componentes para facilidar no desenvolvimento. Não esquça de passar a rota dos componentes criados 
+que fica no documento TS pra o app.component.html que será o responsável por carregar o projeto.
+
+<h1>Angular</h1>

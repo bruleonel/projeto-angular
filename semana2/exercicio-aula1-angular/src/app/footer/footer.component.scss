@@ -1,0 +1,20 @@
+.rodape
+ {
+  display: flex;
+  flex-direction: column;
+  background-color: blueviolet;
+  align-items: center;
+  width: 100%;
+  bottom: 0;
+ }
+
+ .card__rodape {
+  color: aliceblue;
+  display: flex;
+  padding: 1.5rem;
+ }
+
+ .card__rodape a {
+  color: #ffffff;
+  padding: 0.5rem;
+ }
