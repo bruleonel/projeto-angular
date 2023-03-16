@@ -34,7 +34,11 @@ ng generate module <nome>
 - Com os módulos você cria seções para a mesma aplicação. 
 - Quando criar o módulo não esqueça de importar.
 
-<img src="/exercicio-aula2-gestao-de-funcionarios/src/assets/modulo-imports.jpeg" whidth="500px" alt="exemplo módulo"/>
+
+<span align="center">
+  <img width="200" height="200" src="modulo-imports.jpeg"
+  alt="exemplo">
+</span>
 
 - E não esqueça de exportar:
 
