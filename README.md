@@ -31,7 +31,11 @@ npm install -g @angular/cli
 
 ### Para criar módulo:
 ng generate module <nome>
-- Com os módulos você cria seções para a mesma aplicação
+- Com os módulos você cria seções para a mesma aplicação. 
+- Quando criar o módulo não esqueça de importar.
+<img src="exercicio-aula2-gestao-de-funcionarios/src/assets/modulo-imports.jpeg" whidth="500px" alt="exemplo módulo">
+- E não esqueça de exportar:
+<img src="exercicio-aula2-gestao-de-funcionarios/src/assets/modulo-exports.jpeg" whidth="500px" alt="exemplo módulo">
 ### Para rodar o projeto:
 - ng serve -o
 
@@ -47,7 +51,7 @@ ng generate module <nome>
 <h3>Módulos | Exercício | Semana 2 | Angular | aula 2</h3>
 
 <a href="#" text-decoration="none">Clique aqui para ver o vídeo</a><br>
-<a href="#" text-decoration="none">Clique aqui para ver o código</a>
+<a href="https://github.com/bruleonel/projeto-angular/tree/main/semana2/exercicio-aula2-gestao-de-funcionarios" text-decoration="none">Clique aqui para ver o código</a>
 
 
 
