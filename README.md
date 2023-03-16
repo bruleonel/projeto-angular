@@ -39,4 +39,4 @@ que fica no documento TS pra o app.component.html que será o responsável por c
 
 <h3>Exercício | Semana 2 | Angular | aula 1</h3>
 
-<a href="https://www.loom.com/share/7424eba99bc041d7a41463d654ddb200"></a>
+<a href="https://www.loom.com/share/7424eba99bc041d7a41463d654ddb200">vídeo</a>
