@@ -13,10 +13,17 @@ npm cache clean
 Depois reinicei o pc e instalei o angular cli novamente:
 npm install -g @angular/cli
 
-## Para rodar o projeto:
+## Para criar um projeto:
+ng new <nome>
 
+## Para instalar dependencias quando você da um fork:
+nmp install
+
+## Para criar módulo:
+ng generate module <nome>
+- Com os módulos você cria seções para a mesma aplicação
+## Para rodar o projeto:
 ng serve -o
 
 ## Para criar um component:
-
 ng g component <nome>
