@@ -11,7 +11,8 @@ Esse compenete poder ser compartilhado com outros componentes para facilidar no 
 que fica no documento TS pra o app.component.html que será o responsável por carregar o projeto.
 ### Para baixar o Agular Cli usei:
 - npm intall -g @angular/cli
-### {c:red} Erro: 'ng' não é reconhecido como um comando interno ou externo, um programa operável ou um arquivo em lotes. {/c}
+
+### !!! Erro: 'ng' não é reconhecido como um comando interno ou externo, um programa operável ou um arquivo em lotes.
 
 Resolvi esse problema excluindo o nodeJs e instalando novamente. Após isso desintalei o angular e limpei o cache com os comandos:
 
