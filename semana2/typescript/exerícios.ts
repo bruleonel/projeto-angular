@@ -38,20 +38,53 @@ enum Materias {
 }
 
 
-/* */
+/* Crie um tipo para representar os professores, contendo nome e uma lista de cada 
+um.*/
 
 interface Professor { 
     nome: string;
-    materias: Materias;
+    materias: Materias[];
 }
 
-/* */
+/* 7- Crie os objetos Allan e Natan utilizando os tipos dos exercício 5 e 6  Nathan
+= Angular e git, Alan = Angular, typescript e git*/
 
-/* */
+export const alan: Professor = {
+    nome: "Alan",
+    materias: [Materias.Angular, Materias.Git, Materias.Typescript]
+}
 
-/* */
+const nathan: Professor = {
+    nome: "Nathan",
+    materias: [Materias.Angular, Materias.Git]
+}
 
-/* */
+/* 8- Declare e popule um array com objetos do exercício anterior */
+
+const professor: Professor[] = [alan, nathan]
+
+/* 9- Faça uma função que recebe um argumento de um array de professor e retorne um 
+novo array de strings contendo somente nome de professores */
+
+const nomeProfessor = (professor: Professor) => professor.nome
+function retornaNomeProfessor(professor: Professor[]): string[] {
+    return professor.map(nomeProfessor)
+}
+
+console.log(retornaNomeProfessor(professor));
+/* 10- Faça uma função que recebe um argumento de um array de professores e retorne
+um array de materiais */
+
+function retornaMateriasProfessor(professor: Professor[]): Materias[] {
+    return professor.map(p => p.materias).reduce<Materias[]>((accumulator, materias) => {
+        return accumulator.concat()
+    }, [])
+}
+
+console.log(retornaMateriasProfessor(professor));
+
+/* 11- Faça uma função que recebe um argumento de um array de professores e retorne
+o primeiro professor encontrado que dê aula de typescript*/
 
 /* */
 
