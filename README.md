@@ -61,7 +61,7 @@ ng generate module <nome>
 
 <h3>Módulos | Exercício | Semana 2 | Angular | aula 2</h3>
 
-<a href="#" text-decoration="none">Clique aqui para ver o vídeo</a><br>
+<a href="https://www.loom.com/share/e585ee631e334b4f9ebffba395f35570" text-decoration="none">Clique aqui para ver o vídeo</a><br>
 <a href="https://github.com/bruleonel/projeto-angular/tree/main/semana2/exercicio-aula2-gestao-de-funcionarios" text-decoration="none">Clique aqui para ver o código</a>
 
 
