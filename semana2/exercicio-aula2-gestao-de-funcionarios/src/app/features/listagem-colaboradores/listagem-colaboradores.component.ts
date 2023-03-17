@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./listagem-colaboradores.component.scss']
 })
 export class ListagemColaboradoresComponent {
-
+  titulo: string[] = ["id:07", "  Bruna Leoel", "  Desenvolvedora Front End"];
 }
