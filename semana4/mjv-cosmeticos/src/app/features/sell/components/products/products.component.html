@@ -1,0 +1,13 @@
+<h1>{{titulo}}</h1>
+
+<div>
+  <div>
+    <p>Descrição do Produto: {{produto1.descricao}}</p>
+    <p>Preço: {{produto1.preco}}</p>
+    <p>Quantidade: {{produto1.quantidade}}</p>
+    <p>Preço com Desconto: {{precoComDesconto(produto1.preco)}}</p>
+    <img src="{{produto1.imagem}}" width="180px" height="160px">
+    <br>
+    <button (click)="comprar()">Comprar</button>
+  </div>
+</div>
