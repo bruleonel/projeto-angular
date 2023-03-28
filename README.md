@@ -1,21 +1,22 @@
 # Exercícios:
 ### OBS:. O exercício da semana 1 está em outro repositório
 
+<a href="https://github.com/bruleonel/angular">Clique aqui para ver o código</a>
+
 <h3>Componente | Exercício | Semana 2 | Angular | aula 1</h3>
 
-<a href="https://www.loom.com/share/7424eba99bc041d7a41463d654ddb200" 
-text-decoration="none">Clique aqui para ver o vídeo</a><br>
-<a href="https://github.com/bruleonel/projeto-angular/commit/0b260832
-8e2a58c94df65fdaec81ade59fd597a8" text-decoration="none">Clique aqui 
+![semana2-1-gif](https://user-images.githubusercontent.com/104650333/228373826-7e27e6c2-0b3f-4a44-b927-a23de41fb464.gif)
+
+<a href="https://github.com/bruleonel/projeto-angular/tree/main/semana2/exercicio-aula1-angular" text-decoration="none">Clique aqui 
 para ver o código</a>
 
 <h3>Módulos | Exercício | Semana 2 | Angular | aula 2</h3>
 
-<a href="https://www.loom.com/share/e585ee631e334b4f9ebffba395f35570" 
-text-decoration="none">Clique aqui para ver o vídeo</a><br>
-<a href="https://github.com/bruleonel/projeto-angular/tree/main/
-semana2/exercicio-aula2-gestao-de-funcionarios" text-decoration=
-"none">Clique aqui para ver o código</a>
+![semana2-gif](https://user-images.githubusercontent.com/104650333/228374020-bfd0d714-0e04-406c-a8ee-c4c68ce14904.gif)
+
+Esse exercício foi feito antes da aula, na verdade é da semana 3. Eu refiz abaixo.
+<br>
+<a href="https://github.com/bruleonel/projeto-angular/tree/main/semana2/exercicio-aula2-gestao-de-funcionarios">Clique aqui para ver o código</a>
 
 <h3>Typescript | Exercício | Semana 2</h3>
 
@@ -27,24 +28,16 @@ solicitado.
 
 <h3>Exercício | Semana 3</h3>
 
-<span align="center">
-  <img width="400" height="250" src="semana3/gestao-de-colaboradores/
-  assets/gif.gif"
-  alt="exemplo">
-</span>
-<a href="https://github.com/bruleonel/projeto-angular/tree/main/
-semana2/exercicio-aula2-gestao-de-funcionarios" text-decoration=
+![exercício-semana3](https://user-images.githubusercontent.com/104650333/228103976-cf4007fc-42e7-4c42-b1d4-13a0b448d6db.gif)
+
+<a href="https://github.com/bruleonel/projeto-angular/tree/main/semana3/gestao-de-colaboradores" text-decoration=
 "none">Clique aqui para ver o código</a>
 
 <h3>Exercício | Semana 4</h3>
 
-<span align="center">
-  <img width="400" height="250" src="semana3/gestao-de-colaboradores/
-  assets/gif.gif"
-  alt="exemplo">
-</span>
-<a href="https://github.com/bruleonel/projeto-angular/tree/main/
-semana2/exercicio-aula2-gestao-de-funcionarios" text-decoration=
+![semana4-gif (1)](https://user-images.githubusercontent.com/104650333/228101794-6dc0bcf0-28b1-4ecf-982e-425c047a1df6.gif)
+
+<a href="https://github.com/bruleonel/projeto-angular/tree/main/semana4/mjv-cosmeticos" text-decoration=
 "none">Clique aqui para ver o código</a>
 
 # Projeto Angular
@@ -53,7 +46,6 @@ Este projeto foi criado para acompanhamento do curso de Angular com a
 empresa MJV. Aqui deixarei registrado anotações importantantes e 
 também meus exercícios separados por semana.
 
-## Semana 2
 ## Observações:
 Ao criar o projeto angular ele vem com as configurações padrão, você 
 pode criar componetes (pastas) para "montar" sua aplicação, como
@@ -99,26 +91,24 @@ Com os módulos você cria seções para a mesma aplicação.
 
 ### Quando criar o módulo não esqueça de importar:
 Dentro da pasta app.modules.ts >
+Exemplo:<br>
 
-Exemplo:
-<span align="center">
-  <img width="600" height="400" src="img-readme/modulo-imports.jpeg"
-  alt="exemplo">
-</span>
+![importando-gif](https://user-images.githubusercontent.com/104650333/228377257-94f0b623-df3f-419d-bbb8-4134e575362c.gif)
 
 ### E não esqueça de exportar:
 Dentro da pasta <nome>  modules.ts >
+Exemplo:<br>
 
-<span align="center">
-  <img width="600" height="400" src="img-readme/modulo-exports.jpeg"
-  alt="exemplo">
-</span>
+![exportando-gif](https://user-images.githubusercontent.com/104650333/228377642-182bfacf-b14f-4416-8648-6aec836aa804.gif)
+
 
 ## Pra finalizar:
 Vá dentro dos componetes exportados e copie a rota no arquivo TS pra colar
  no app.componet.html
 
-Exemplo de rota: <app-header></app-header>
+Exemplo de rota: <app-header></app-header><br>
+![app-rota-gif](https://user-images.githubusercontent.com/104650333/228377877-02868714-cd98-4445-b3b3-8da9bea8fca2.gif)
+
 
 ## Interpolação
 Para fazer interpolação de TypeScript com HTML:
@@ -127,10 +117,8 @@ no arquivo HTML
 
 Exemplo:
 
-<span align="center">
-  <img width="400" height="250" src="semana3/gestao-de-colaboradores/
-  assets/gif.gif" alt="exemplo">
-</span>
+![interpolacao-gif](https://user-images.githubusercontent.com/104650333/228379567-cc2ee2bf-5590-4eef-b106-11e261daccc2.gif)
+
 
 ## Para rodar o projeto:
 - ng serve -o
