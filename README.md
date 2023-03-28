@@ -25,22 +25,16 @@ solicitado.
 
 <h3>Exercício | Semana 3</h3>
 
-<span align="center">
-  <img width="400" height="250" src="semana3/gestao-de-colaboradores/
-  assets/gif.gif"
-  alt="exemplo">
-</span>
+![exercício-semana3](https://user-images.githubusercontent.com/104650333/228103976-cf4007fc-42e7-4c42-b1d4-13a0b448d6db.gif)
+
 <a href="https://github.com/bruleonel/projeto-angular/tree/main/
 semana2/exercicio-aula2-gestao-de-funcionarios" text-decoration=
 "none">Clique aqui para ver o código</a>
 
 <h3>Exercício | Semana 4</h3>
 
-<span align="center">
-  <img width="400" height="250" src="semana3/gestao-de-colaboradores/
-  assets/gif.gif"
-  alt="exemplo">
-</span>
+![semana4-gif (1)](https://user-images.githubusercontent.com/104650333/228101794-6dc0bcf0-28b1-4ecf-982e-425c047a1df6.gif)
+
 <a href="https://github.com/bruleonel/projeto-angular/tree/main/
 semana2/exercicio-aula2-gestao-de-funcionarios" text-decoration=
 "none">Clique aqui para ver o código</a>
