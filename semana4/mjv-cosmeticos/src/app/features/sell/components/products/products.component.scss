@@ -1,0 +1,92 @@
+h1 {
+  color: rgb(63, 62, 62);
+  text-align: center;
+  padding: 2rem;
+}
+
+.card-produto {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-produto {
+  background-color: #d2e7f5;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  align-items: center;
+}
+
+.item-titulo {
+  text-align: left;
+  font-size: 15px;
+  padding: 0.2rem 0.2rem 0.2rem 0.4rem;
+  font-weight: bold;
+}
+
+.item-texto {
+ color: rgb(73, 72, 72);
+  text-align: left;
+  padding: 0.2rem 0.2rem 0.2rem 0.4rem;
+  font-size: 14px;
+}
+
+.item-condicao {
+  padding: 1rem;
+  font-size: 14px;
+  text-align: left;
+  padding: 0.2rem 0.2rem 0.2rem 0.4rem;
+}
+
+.item-produto input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  margin: 0.2rem;
+}
+
+.item-produto button {
+  color: rgb(81, 81, 81);
+  background-color: rgb(127, 187, 255);
+  width: 300px;
+  height: 30px;
+  border: none;
+  margin: 0.2rem;
+}
+
+.em-estoque {
+  color: green;
+}
+
+.falta-estoque {
+  color: red;
+}
+
+
+@media only screen and (min-device-width: 720px) {
+  .card-produto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .item-produto {
+    width: 300px;
+  }
+}
+
+
+@media only screen and (min-device-width: 1000px) {
+  .card-produto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (min-device-width: 1400px) {
+  .card-produto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+}
+

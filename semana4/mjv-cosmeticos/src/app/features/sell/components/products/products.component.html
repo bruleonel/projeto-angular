@@ -1,13 +1,20 @@
 <h1>{{titulo}}</h1>
 
-<div>
-  <div>
-    <p>Descrição do Produto: {{produto1.descricao}}</p>
-    <p>Preço: {{produto1.preco}}</p>
-    <p>Quantidade: {{produto1.quantidade}}</p>
-    <p>Preço com Desconto: {{precoComDesconto(produto1.preco)}}</p>
-    <img src="{{produto1.imagem}}" width="180px" height="160px">
-    <br>
-    <button (click)="comprar()">Comprar</button>
+  <div class="card-produto">
+    <div class="item-produto" *ngFor="let produto of produtos">
+      <img src="{{produto.imagem}}" width="300px" height="300px">
+      <h2 class="item-titulo">Descrição do Produto: {{produto.descricao}}</h2>
+      <p class="item-texto">Preço: {{produto.preco}}</p>
+      <p class="item-texto">Quantidade: {{produto.quantidade}}</p>
+      <p class="item-texto">Preço com Desconto: {{precoComDesconto(produto.preco)}}</p>
+      <p class="item-condicao" [ngClass]="{'em-estoque': produto.disponivel, 'falta-estoque': !produto.disponivel}">{{produto.disponivel ? "Em estoque" : "Produto em falta"}}</p>
+      <br>
+      <!--<input type="text" (keyup)="pressionouTecla($event)">-->
+      <br>
+      <button *ngIf="produto.disponivel ?  exibeProduto : !exibeProduto" (click)="obterDesconto()">Obter desconto</button>
+      <button *ngIf="produto.disponivel ?  exibeProduto : !exibeProduto" (click)="comprar()">Comprar</button>
+    </div>
   </div>
-</div>
+
+<br>
+<button (click)="exibeProdutoSimNao()">Exibe Produto</button>
