@@ -138,6 +138,7 @@ Exemplo:
 ## Para criar um component:
 - ng g component <nome>
 
-
+## Diretivas
+- ng g d <nome>
 
 
