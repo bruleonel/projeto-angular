@@ -5,8 +5,7 @@
 
 <a href="https://www.loom.com/share/7424eba99bc041d7a41463d654ddb200" 
 text-decoration="none">Clique aqui para ver o vídeo</a><br>
-<a href="https://github.com/bruleonel/projeto-angular/commit/0b260832
-8e2a58c94df65fdaec81ade59fd597a8" text-decoration="none">Clique aqui 
+<a href="https://github.com/bruleonel/projeto-angular/tree/main/semana2/exercicio-aula1-angular" text-decoration="none">Clique aqui 
 para ver o código</a>
 
 <h3>Módulos | Exercício | Semana 2 | Angular | aula 2</h3>
@@ -27,16 +26,14 @@ solicitado.
 
 ![exercício-semana3](https://user-images.githubusercontent.com/104650333/228103976-cf4007fc-42e7-4c42-b1d4-13a0b448d6db.gif)
 
-<a href="https://github.com/bruleonel/projeto-angular/tree/main/
-semana2/exercicio-aula2-gestao-de-funcionarios" text-decoration=
+<a href="https://github.com/bruleonel/projeto-angular/tree/main/semana3/gestao-de-colaboradores" text-decoration=
 "none">Clique aqui para ver o código</a>
 
 <h3>Exercício | Semana 4</h3>
 
 ![semana4-gif (1)](https://user-images.githubusercontent.com/104650333/228101794-6dc0bcf0-28b1-4ecf-982e-425c047a1df6.gif)
 
-<a href="https://github.com/bruleonel/projeto-angular/tree/main/
-semana2/exercicio-aula2-gestao-de-funcionarios" text-decoration=
+<a href="https://github.com/bruleonel/projeto-angular/tree/main/semana4/mjv-cosmeticos" text-decoration=
 "none">Clique aqui para ver o código</a>
 
 # Projeto Angular
