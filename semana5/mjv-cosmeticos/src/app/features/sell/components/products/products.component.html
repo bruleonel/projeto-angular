@@ -1,0 +1,21 @@
+<h1>{{titulo}}</h1>
+
+<h3>Produtos Disponíveis até: {{dataHoje | date: 'medium'}}</h3>
+  <div class="card-produto">
+    <div class="item-produto" *ngFor="let produto of produtos">
+      <img src="{{produto.imagem}}" width="300px" height="300px">
+      <h2 class="item-titulo">Descrição do Produto: {{produto.descricao}}</h2>
+      <p class="item-texto">Preço: {{produto.preco | currency: 'R$ '}}</p>
+      <p class="item-texto">Quantidade: {{produto.quantidade}}</p>
+      <p class="item-texto">Preço com Desconto: {{precoComDesconto(produto.preco) | currency: 'R$ '}}</p>
+      <p class="item-condicao" [ngClass]="{'em-estoque': produto.disponivel, 'falta-estoque': !produto.disponivel}">{{produto.disponivel ? "Em estoque" : "Produto em falta"}}</p>
+      <br>
+      <!--<input type="text" (keyup)="pressionouTecla($event)">-->
+      <br>
+      <button *ngIf="produto.disponivel ?  exibeProduto : !exibeProduto" (click)="obterDesconto()">Obter desconto</button>
+      <button *ngIf="produto.disponivel ?  exibeProduto : !exibeProduto" (click)="comprar()">Comprar</button>
+    </div>
+  </div>
+
+<br>
+<button (click)="exibeProdutoSimNao()">Exibe Produto</button>

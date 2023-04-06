@@ -120,6 +120,9 @@ Exemplo:
 ![interpolacao-gif](https://user-images.githubusercontent.com/104650333/228379567-cc2ee2bf-5590-4eef-b106-11e261daccc2.gif)
 
 
+## Piper:
+- ng g pipe shared/pipes/phone
+
 ## Para rodar o projeto:
 - ng serve -o
 
