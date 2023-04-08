@@ -1,7 +1,18 @@
 h1 {
   color: rgb(63, 62, 62);
   text-align: center;
-  padding: 2rem;
+
+}
+
+.textos {
+
+  align-items: center;
+  padding: 6rem 5rem 2rem 5rem;
+}
+
+.data {
+  text-align: center;
+
 }
 
 .card-produto {
@@ -12,7 +23,7 @@ h1 {
 .item-produto {
   background-color: #d2e7f5;
   text-align: center;
-  margin: 1rem;
+  margin: 0.5rem;
   padding: 1rem;
   align-items: center;
 }
@@ -79,14 +90,18 @@ h1 {
   .card-produto {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-self: center;
+    max-width: 1044px;
+
   }
 }
 
-@media only screen and (min-device-width: 1400px) {
+/*@media only screen and (min-device-width: 1400px) {
   .card-produto {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1024px;
   }
 
-}
+}*/
 

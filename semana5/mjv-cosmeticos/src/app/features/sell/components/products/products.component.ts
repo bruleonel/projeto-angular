@@ -7,7 +7,7 @@ import { Produto } from '../../models/products.model';
   styleUrls: ['./products.component.scss']
 })
 export class ProductsComponent implements OnInit {
-  titulo = "Produtos";
+  titulo = "Maquiagem";
 
   exibeProduto = true;
 

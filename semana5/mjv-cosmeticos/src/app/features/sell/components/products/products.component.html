@@ -1,6 +1,7 @@
-<h1>{{titulo}}</h1>
-
-<h3>Produtos Disponíveis até: {{dataHoje | date: 'medium'}}</h3>
+<div class="textos">
+  <h1>{{titulo}}</h1>
+  <h3 class="data">Produtos Disponíveis até: {{dataHoje | date: 'medium'}}</h3>
+</div>
   <div class="card-produto">
     <div class="item-produto" *ngFor="let produto of produtos">
       <img src="{{produto.imagem}}" width="300px" height="300px">
