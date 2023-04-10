@@ -164,12 +164,13 @@ Dentro da page coloque o header(ele será responsável pela navegação das page
  
 ![home-gif](https://user-images.githubusercontent.com/104650333/230965623-6e154b52-7953-4bf5-8f95-b925c7ea3e81.gif)
  
- Dentro do header que será compartilhado com todas as pages crie uma função que recebe a url e importe o router:
- {
+ Dentro do header que será compartilhado com todas as pages crie uma função que recebe a url e importe o router.
+ 
+```ruby
     navigateByUrl(url: string) {
     this.router.navigateByUrl(url);
   }
- }
+```
  
  ![import](https://user-images.githubusercontent.com/104650333/230967548-f734d012-ab77-41ed-969f-607aa7c02233.gif)
  
