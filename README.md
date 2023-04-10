@@ -176,9 +176,11 @@ Dentro da page coloque o header(ele será responsável pela navegação das page
  Depois dento da tag HTML em header crie a condição com a troca:
  
  ![nvg-gif](https://user-images.githubusercontent.com/104650333/230968703-2b8aef5a-4717-4787-81d8-deb183714803.gif)
-
-
  
+ A segunta maneira é entrar no shared module e importar o routerModule e depois colocar o [routerLink]:
+
+![routerLink-gif](https://user-images.githubusercontent.com/104650333/230969713-f32aa714-4829-424a-b2b9-9ed3145b7ddb.gif)
+
  
 ## Para rodar o projeto:
 - ng serve -o
