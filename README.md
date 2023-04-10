@@ -136,10 +136,50 @@ Exemplo:
 
 ![interpolacao-gif](https://user-images.githubusercontent.com/104650333/228379567-cc2ee2bf-5590-4eef-b106-11e261daccc2.gif)
 
-
-## Piper:
+## Pipes:
 - ng g pipe shared/pipes/phone
+Material de consulta:
+<a href="https://angular.io/guide/pipes" text-decoration=
+"none">Clique aqui para ver o código</a>
+ 
+## Routing
+- Serve para trocas de página da aplicação
+ 
+Para começar crie um projeto com ng new nomeProjeto>
+Escolha utilizar o routing>
+Repare que isso gerará um arquivo chamado routing:
+ 
+![app-routing-gif](https://user-images.githubusercontent.com/104650333/230959418-144eaa0a-8fce-4d8d-baaf-d154337e243b.gif)
 
+Agora no app componet não pode apagar tudo, lá terá uma rota: <!--<router-outlet>-->
+ 
+ ### OBS: Um exemplo como é como foi feito aqui nesse projeto na semana 5, criei a pasta login, depois a pasta login/componets depois o módulo de login, depois foi criado a pasta login/pages (sem a tag app rota porque será via routing) depois foi digitado o comando para criação da pages.
+ 
+Crie seus  módulos> Para criar as páginas digite o comando: ng g c caminho/nomepagina --skip-selector>depois de criado você deve exportá-la>no app importe o modulo da página no app módule> no app routing crie as rotas de navegação:
+ 
+![paginas-gif](https://user-images.githubusercontent.com/104650333/230962568-89f3bf13-186c-438a-8672-b821a1f12afe.gif)
+ 
+Agora pra arrumar pelo menu de navegação:
+Dentro da page coloque o header(ele será responsável pela navegação das pages), conteúdo e footer (lembre-se que são componentes != de pages):
+ 
+![home-gif](https://user-images.githubusercontent.com/104650333/230965623-6e154b52-7953-4bf5-8f95-b925c7ea3e81.gif)
+ 
+ Dentro do header que será compartilhado com todas as pages crie uma função que recebe a url e importe o router:
+ {
+    navigateByUrl(url: string) {
+    this.router.navigateByUrl(url);
+  }
+ }
+ 
+ ![import](https://user-images.githubusercontent.com/104650333/230967548-f734d012-ab77-41ed-969f-607aa7c02233.gif)
+ 
+ Depois dento da tag HTML em header crie a condição com a troca:
+ 
+ ![nvg-gif](https://user-images.githubusercontent.com/104650333/230968703-2b8aef5a-4717-4787-81d8-deb183714803.gif)
+
+
+ 
+ 
 ## Para rodar o projeto:
 - ng serve -o
 
