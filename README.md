@@ -153,7 +153,7 @@ Repare que isso gerará um arquivo chamado routing:
 
 Agora no app componet não pode apagar tudo, lá terá uma rota: <!--<router-outlet>-->
  
- ### OBS: Um exemplo como é como foi feito aqui nesse projeto na semana 5, criei a pasta login, depois a pasta login/componets depois o módulo de login, depois foi criado a pasta login/pages (sem a tag app rota porque será via routing) depois foi digitado o comando para criação da pages.
+ ### OBS: Um exemplo de como é feito está aqui nesse projeto na semana 5, criei a pasta login, depois a pasta login/componets depois o módulo de login, depois foi criado a pasta login/pages (sem a tag app rota porque será via routing) depois foi digitado o comando para criação da pages.
  
 Crie seus  módulos> Para criar as páginas digite o comando: ng g c caminho/nomepagina --skip-selector>depois de criado você deve exportá-la>no app importe o modulo da página no app módule> no app routing crie as rotas de navegação:
  
