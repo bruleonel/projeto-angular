@@ -168,8 +168,8 @@ Dentro da page coloque o header(ele será responsável pela navegação das page
  
 ```ruby
     navigateByUrl(url: string) {
-    this.router.navigateByUrl(url);
-  }
+      this.router.navigateByUrl(url);
+    }
 ```
  
  ![import](https://user-images.githubusercontent.com/104650333/230967548-f734d012-ab77-41ed-969f-607aa7c02233.gif)
