@@ -1,0 +1,25 @@
+.footer {
+  background-image: linear-gradient(rgb(192, 181, 181),rgb(80, 79, 79));
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  bottom: 0;
+  
+  width: 100vw;
+}
+
+.list, .contact {
+  color: antiquewhite;
+  display: flex;
+  margin: 1rem;
+}
+
+.list-item {
+  padding: 0.5rem;
+  text-decoration: none;
+  list-style: none;
+}
+
+.contact h3 {
+  padding: 0.5rem;
+}
