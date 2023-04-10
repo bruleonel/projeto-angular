@@ -40,6 +40,23 @@ solicitado.
 <a href="https://github.com/bruleonel/projeto-angular/tree/main/semana4/mjv-cosmeticos" text-decoration=
 "none">Clique aqui para ver o código</a>
 
+
+<h3>Exercício | Semana 5</h3>
+
+### Pipes
+![pipes-gif](https://user-images.githubusercontent.com/104650333/230955784-b3898f01-ac44-4971-bf89-a150f4149757.gif)
+
+### Routing
+![login-gif](https://user-images.githubusercontent.com/104650333/230955977-971caa88-aa86-4dda-9bc4-d84328ab4863.gif)
+
+### Typescript
+<a href="https://github.com/bruleonel/projeto-angular/tree/main/semana5/typescript" text-decoration=
+"none">Clique aqui para ver o código</a>
+
+### Código da semana
+<a href="https://github.com/bruleonel/projeto-angular/tree/main/semana5" text-decoration=
+"none">Clique aqui para ver o código</a>
+
 # Projeto Angular
 
 Este projeto foi criado para acompanhamento do curso de Angular com a 
