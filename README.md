@@ -140,7 +140,7 @@ Exemplo:
 - ng g pipe shared/pipes/phone
 Material de consulta:
 <a href="https://angular.io/guide/pipes" text-decoration=
-"none">Clique aqui para ver o código</a>
+"none">Angular Document</a>
  
 ## Routing
 - Serve para trocas de página da aplicação
