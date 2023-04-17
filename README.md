@@ -182,6 +182,51 @@ Dentro da page coloque o header(ele será responsável pela navegação das page
 
 ![routerLink-gif](https://user-images.githubusercontent.com/104650333/230969713-f32aa714-4829-424a-b2b9-9ed3145b7ddb.gif)
 
+Para que o usuário seja direcionado direto para a pagina desejada dentro do app component deixe o seguinte comando:
+
+````ruby
+const routes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
+  { path: 'login', component: LoginComponent }
+];
+
+````
+
+## Services:
+- ng g s nome
+
+Automaticamente será criado um novo arquivo com a seguinte estrutura:
+
+````ruby
+import { Injectable } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class ProductsService {
+
+  constructor() { }
+}
+
+````
+
+O papel dessa service será gerenciar os dados de produtos, na semana 6 continuei meu projeto da semana 5  retirei o array de produtos de produtos e criei as funções dentro do services para retornarem os produtos.
+
+Depois criei uma nova tela para exibir detalhes
+
+
+````ruby
+  getProducts() {
+    return this.products;
+  }
+
+  getById(id: number) {
+    return this.products.find((product) => { product.id === id});
+  }
+
+  ````
+
  
 ## Para rodar o projeto:
 - ng serve -o
