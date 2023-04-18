@@ -57,6 +57,15 @@ solicitado.
 <a href="https://github.com/bruleonel/projeto-angular/tree/main/semana5" text-decoration=
 "none">Clique aqui para ver o código</a>
 
+<h3>Exercício | Semana 6</h3>
+
+![semana6](https://user-images.githubusercontent.com/104650333/232654934-d8075ebe-616b-4b41-a194-09fb2a9c3152.gif)
+
+### Código da semana
+<a href="https://github.com/bruleonel/projeto-angular/tree/main/semana6" text-decoration=
+"none">Clique aqui para ver o código</a>
+
+<h3>Exercício | Semana 7</h3>
 # Projeto Angular
 
 Este projeto foi criado para acompanhamento do curso de Angular com a 
