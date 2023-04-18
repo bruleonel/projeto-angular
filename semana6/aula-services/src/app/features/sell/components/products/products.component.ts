@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../../models/product.model';
+import { ProductsService } from 'src/app/services/products.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-products',
@@ -9,8 +11,6 @@ import { Product } from '../../models/product.model';
 export class ProductsComponent implements OnInit {
 
   titulo = "Produtos";
-
-  telefone = "11987657864";
 
   exibeProduto = true;
 
@@ -23,38 +23,9 @@ export class ProductsComponent implements OnInit {
     imagem: "https://s03.video.glbimg.com/x720/8619970.jpg"
   };
 
-  produtos: Array<Product> = [
-    {
-      descricao: "Playstation 5",
-      preco: 4600,
-      quantidade: 1,
-      imagem: "https://s03.video.glbimg.com/x720/8619970.jpg",
-      disponivel: true,
-    },
-    {
-      descricao: "Playstation 4",
-      preco: 2900,
-      quantidade: 1,
-      imagem: "https://http2.mlstatic.com/D_NQ_NP_2X_680513-MLA46911917058_072021-V.webp",
-      disponivel: true,
-    },
-    {
-      descricao: "Playstation 5 1TB",
-      preco: 4800,
-      quantidade: 0,
-      imagem: "https://s03.video.glbimg.com/x720/8619970.jpg",
-      disponivel: false,
-    },
-    {
-      descricao: "Playstation 4 1TB",
-      preco: 2900,
-      quantidade: 2,
-      imagem: "https://http2.mlstatic.com/D_NQ_NP_2X_680513-MLA46911917058_072021-V.webp",
-      disponivel: true,
-    }
-  ]
+  produtos: Array<Product> = this.productsService.getProducts();
 
-  constructor() { }
+  constructor(private productsService: ProductsService, private router: Router) { }
 
   ngOnInit(): void {
     console.log("teste");
@@ -86,6 +57,10 @@ export class ProductsComponent implements OnInit {
 
   exibeProdutoSimNao() {
     this.exibeProduto = !this.exibeProduto;
+  }
+
+  detalhesProduto(idProduto: number) {
+    this.router.navigateByUrl(`product-details/${idProduto}`)
   }
 
 }
